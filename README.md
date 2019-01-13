@@ -16,5 +16,3 @@
 This is a ReactJS based personal portfolio.
 
 #### WIP
-
-- resolutions width < 1160px causes the cell stylings to break

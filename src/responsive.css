@@ -1,5 +1,6 @@
 
 @media screen and (min-width: 768px) and (max-width:1159px) {
+  /* 2 column styling*/
   /* convert all cells less than 50% to 50%*/
   .cell1 {
     width: calc(95vw/2);
@@ -13,7 +14,21 @@
   .cell4 {
     width: calc(95vw/2);
   }
-/* 2 column styling*/
+
+  #udacity-degree-link::before {
+    visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    content: attr(data-tool-tip);
+    position: absolute;
+    z-index: 1000;
+    margin: 0 auto;
+    left: 0;
+    bottom: -50px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
 }
 
 @media screen and (max-width:767px) {
