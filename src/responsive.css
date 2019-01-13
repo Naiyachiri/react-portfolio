@@ -1,0 +1,30 @@
+
+@media screen and (min-width: 768px) and (max-width:1159px) {
+  /* convert all cells less than 50% to 50%*/
+  .cell1 {
+    width: calc(95vw/2);
+  }
+  .cell2 {
+    width: calc(98vw/2);
+  }
+  .cell3 {
+    width: calc(95vw/2);
+  }
+  .cell4 {
+    width: calc(95vw/2);
+  }
+/* 2 column styling*/
+}
+
+@media screen and (max-width:767px) {
+  /* 1 column styling*/
+  .cell1 {
+    width: 100vw;
+  }
+  .cell2 {
+    width: 100vw;
+  }
+  .cell3 {
+    width: 100vw;
+  }
+  }

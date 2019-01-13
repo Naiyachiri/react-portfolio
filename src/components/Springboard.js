@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 
+// break pts <1160px[largest] split 2 columns
+// <800 1 column
+// 1 way to do it is to change the classes according to screen width via scripts
+//another way is via media queries
+// note this was an exercise in trying to understand how libraries such as material-ui
+// work behind all the blackbox magic
 
 class Springboard extends Component {
   render() {
